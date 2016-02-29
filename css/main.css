@@ -4,11 +4,12 @@ html,
 body {
     height: 100%;
     font-family: Roboto Slab;
+    font-size: 15px;
     overflow-x: hidden;
 }
 
 body {
-    padding: 50px 0 0 0; /* Required padding for navbar */
+    padding: 50px 25px 0 25px; /* Required padding for navbar */
 }
 
 
@@ -25,6 +26,23 @@ body {
 }
 
 
+header.carousel {
+    height: 70%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 80%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
 .logo {
   width: 100%;
   padding: 25px 20px;
@@ -33,7 +51,7 @@ body {
 }
 
 .index_summary {
-  margin-top: 35px;
+  margin-top: 20px;
 }
 
 .img1 {
@@ -45,9 +63,13 @@ body {
   font-weight: bolder;
 }
 
-/*.panel-default {
-  max-height: 350px;
-}*/
+.panel-default {
+  max-height: 450px;
+}
+
+.about {
+  font-size: 17px;
+}
 
 .slogan {
   margin-top: 10px;
@@ -90,11 +112,11 @@ footer {
         margin-bottom: 15px;
     }
 
-/*    .torq_comm2_img {
+    .torq_comm2_img {
       margin-top: 10px;
-    }*/
+    }
 
-/*    header.carousel .carousel {
+    header.carousel .carousel {
         height: 70%;
-    }*/
+    }
 }
