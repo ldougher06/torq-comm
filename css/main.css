@@ -11,9 +11,6 @@ body {
     padding: 50px 0 0 0; /* Required padding for navbar */
 }
 
-.index {
-  padding: 0 25px 0 25px;
-}
 
 .nav_logo {
   max-width: 250px;
@@ -27,7 +24,6 @@ body {
     opacity: 0.8;
 }
 
-/* Home Page Carousel */
 
 .logo {
   width: 100%;
@@ -36,21 +32,12 @@ body {
   opacity: 0.4;
 }
 
-header.carousel {
-    height: 60%; /* sets height of carousel */
+.index_summary {
+  margin-top: 35px;
 }
 
-header.carousel .item,
-header.carousel .item.active,
-header.carousel .carousel-inner {
-    height: 100%;
-}
-
-header.carousel .fill {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
+.img1 {
+  padding: 15px 0 15px 0;
 }
 
 .index_page_header {
@@ -58,11 +45,9 @@ header.carousel .fill {
   font-weight: bolder;
 }
 
-
-
-.panel-default {
+/*.panel-default {
   max-height: 350px;
-}
+}*/
 
 .slogan {
   margin-top: 10px;
@@ -105,11 +90,11 @@ footer {
         margin-bottom: 15px;
     }
 
-    .torq_comm2_img {
+/*    .torq_comm2_img {
       margin-top: 10px;
-    }
+    }*/
 
-    header.carousel .carousel {
+/*    header.carousel .carousel {
         height: 70%;
-    }
+    }*/
 }
