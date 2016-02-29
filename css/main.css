@@ -37,9 +37,10 @@ header.carousel .carousel-inner {
 }
 
 header.carousel .fill {
-    width: 80%;
+    max-width: 80%;
     height: 100%;
     background-position: center;
+    background: no-repeat;
     background-size: cover;
 }
 
@@ -54,9 +55,9 @@ header.carousel .fill {
   margin-top: 20px;
 }
 
-.img1 {
+/*.img1 {
   padding: 15px 0 15px 0;
-}
+}*/
 
 .index_page_header {
   font-family: Roboto Slab;
