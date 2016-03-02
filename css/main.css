@@ -4,7 +4,7 @@ html,
 body {
     height: 100%;
     font-family: Roboto Slab;
-    font-size: 15px;
+    font-size: 17px;
     overflow-x: hidden;
 }
 
@@ -17,17 +17,22 @@ body {
   max-width: 250px;
 }
 
+
+.index_nav_logo {
+  max-width: 350px;
+}
+
 .img-portfolio {
     margin-bottom: 30px;
 }
 
 .img-hover:hover {
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 
 header.carousel {
-    height: 70%;
+    height: 65%;
 }
 
 header.carousel .item,
@@ -44,20 +49,9 @@ header.carousel .fill {
     background-size: cover;
 }
 
-.logo {
-  width: 100%;
-  padding: 25px 20px;
-  background: transparent;
-  opacity: 0.4;
-}
-
 .index_summary {
-  margin-top: 20px;
+  margin: 20px;
 }
-
-/*.img1 {
-  padding: 15px 0 15px 0;
-}*/
 
 .index_page_header {
   font-family: Roboto Slab;
@@ -65,15 +59,17 @@ header.carousel .fill {
 }
 
 .panel-default {
-  max-height: 450px;
+  min-height: 335px;
 }
 
 .about {
-  font-size: 17px;
+  font-size: 19px;
 }
 
 .slogan {
-  margin-top: 10px;
+  margin-top: 35px;
+  font-size: 18px;
+  font-style: italic;
 }
 
 .partners {
@@ -120,4 +116,5 @@ footer {
     header.carousel .carousel {
         height: 70%;
     }
+
 }
